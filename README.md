@@ -26,10 +26,11 @@ Created database with following settings
 ![Picture2-3](https://user-images.githubusercontent.com/117855172/225552321-4810b484-5da5-4919-8c18-3f25333c4dd0.jpg)
 
  With 
+ ```
  username: root
 
- Password: <enter-your-password>
-
+ Password: enter-your-password
+```
  Once RDS is up and running
 
 3. Configure this database details in our project code’s “backend-app/src/main/resources/application.properties” file:
