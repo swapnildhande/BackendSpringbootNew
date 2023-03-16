@@ -8,7 +8,7 @@ This is simple backend springboot app of department with AWS MySQL RDS
 1. Get the code from github repository
 By command
 ```
-$ git clone 
+$ git clone https://github.com/swapnildhande/BackendSpringbootNew.git
 ```
 We have this Springboot backend app code:
 
