@@ -31,19 +31,20 @@ Once RDS is up and running
 3. Configure this database details in our project code’s “backend-app/src/main/resources/application.properties” file:
 And also we have configured Port: 8082 here
 
-![Picture3-1](https://user-images.githubusercontent.com/117855172/225552466-1093d7d9-e590-472e-b636-5300d18bbdbf.jpg)
+ ![Picture3-1](https://user-images.githubusercontent.com/117855172/225552466-1093d7d9-e590-472e-b636-5300d18bbdbf.jpg)
  
-Like shown in above image
+ Like shown in above image
 
 4. Build the code and create jar file
 Now build the project using maven clean and install
 
-![Picture4-1](https://user-images.githubusercontent.com/117855172/225552531-41c5d834-a855-452b-83de-095dabe69075.jpg)
+ ![Picture4-1](https://user-images.githubusercontent.com/117855172/225552531-41c5d834-a855-452b-83de-095dabe69075.jpg)
+
 This will create a jar file of our project in Backend-app/target/BackendSpringbootNew-0.0.1-Snapshot.jar
 
 In pom.xml our jar files nomenclature details are given. It will create a jar file with name given here.
 
-![Picture4-2](https://user-images.githubusercontent.com/117855172/225552704-d9d60fc4-3cc4-4f31-89c3-13cd4be3b286.jpg)
+ ![Picture4-2](https://user-images.githubusercontent.com/117855172/225552704-d9d60fc4-3cc4-4f31-89c3-13cd4be3b286.jpg)
 
 5. Create Dockerfile for our app in app’s main folder
 
